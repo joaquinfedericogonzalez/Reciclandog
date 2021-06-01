@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Aca va todo lo de la barra de navegacion*/
+@mixin colorado ($seccion) {
+
+
+    .#{seccion}{
+
+       @if $seccion==piso {
+        background-color: turquoise;
+        color: violet;
+    }
+    @else if $seccion==planta {
+        background-color: yellow;
+        color: yellowgreen;
+    }
+    @else if $seccion==puppies {
+        background-color:#E76A1C ;
+        color: #D9D9D9;
+    }
+    @else{
+        background-color: slategray;
+        color: teal;
+    } 
+
+    }
+    
+    
+}
+
+@include colorado(puppies);
+
+$azul: #024C79;
+$naranjita:#E76A1C;
+$blanquito:#D9D9D9;
+$gricecito:#CFCFCD;
+.navegacion{
+    background-color: $azul;
+    box-shadow: 0 0px 50px 0 rgba(0,0,0,0.10), 0 0px 20px 0 rgba(0,0,0,0.30);
+}
+
+.navbar-nav > li{
+    padding-left:40px;
+    padding-right:40px;
+}  
+
+.navbar-light .navbar-nav .nav-link {
+    color: $blanquito;
+  }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: $naranjita;
+    text-shadow: 0 7px 7px $azul, 0 0 0 black;
+  }
+
+.logo{
+    width: 300px;
+    height: auto;
+}
+
+.navbar-toggler{
+    background-color: $blanquito;
+    border-radius: 10%;
+    border-color: $naranjita;
+    box-shadow: 0 0px 50px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.30);
+}
+
+.navbar-light .navbar-toggler  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(2, 76, 121, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+/*Botones*/
+
+.btn{
+    background-color: $azul;
+    color: $blanquito;
+    border-color: transparent;
+    box-shadow: 0 4px 10px 6px rgba(0,0,0,0.14), 0 8px 20px 0 rgba(0,0,0,0.32);
+    border-radius: 17px;
+}
+
+.btn:hover{
+    background-color: $naranjita;
+    transform: scale(1.1);
+    transition: 1s;
+    border-color: transparent;
+}
+
+
+/*Cards*/
+
+.card{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Added */
+    box-sizing: border-box;
+    border-color: $naranjita;
+    border-radius: 5px;
+}
+
+.card__card-body{
+    background-color: $gricecito;
+    border-radius: 7px;
+}
+
+.card__card-text{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0 0px 1px black, 0 0 0 #000;
+}
+
+
+/*Aca estan los titulos*/
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    font-family: Karla, sans-serif;
+    color: $naranjita;
+    font-weight: 1.6px;
+    margin: 20px 9px 20px 5px;
+    text-shadow: 0 1px 0px black;
+}
+
+
+
+/*Aca va la seccion de voluntariados*/
+
+.parrafo{
+    padding: 10px 10px 10px 10px;
+    font-family: Karla,sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 18px;
+    width: 100%;
+}
+
+
+/*Aca va el footer*/
+
+.pie{
+    margin-top: 15px;
+    border-color: transparent;
+}
+

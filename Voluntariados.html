@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Voluntariados Refugios para Perros Gatos Todo el Mundo">
+    <meta name="description" content="Anotate a nuestros voluntariados en todo el mundo sin tener experiencia previa!">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilitos.css">
+    <link href = "https://fonts.googleapis.com/css2? family = Karla & display = swap" rel = "hoja de estilo ">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel = "icon"type ="img/favicon32.png" tamaños ="32x32" href ="img/favicon32.png">
+    <title>Voluntariados en Refugios</title>
+</head>
+<body>
+    <header>
+
+        <div class="navegacion">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="index.html"><img class="logo" src="img/RECICLANDOG5.png" alt="hace click aca para volver al Inicio"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <!--Aca empieza la barra de navegacion-->
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Voluntariados.html">Voluntariados</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+    </header>
+        <section class="sectionVoluntariados1" data-aos="fade-up" data-aos-duration="3000">
+
+                <h2 class="titulos">Mira nuestro video informativo!</h2>
+                    <!--asi se coloca un video-->
+
+                    <p class="parrafo">Si quieres unirte a nuestra organización podes hacerlo! A continuación te dejamos un video con experiencias de voluntarios a lo largo del mundo y una breve encuesta que deberás llenar para que podamos ingresarte a los procesos de selección.</p>
+
+                    <div class="embed-responsive embed-responsive-21by9">
+
+                        <iframe src="https://www.youtube.com/embed/0BMVlL1buxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+
+        </section>
+
+
+        <section class="sectionVoluntariados" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+
+            <h2 class="titulos">Completa los datos y te contactaremos!</h2>
+                <!--aca hice un formulario-->
+
+                <form class="formulario">
+                    <fieldset class="fondo">
+                        <div>
+                            <label>Nombre 
+                                <!--esto es lo que se muestra de lo que se tiene que completar-->
+                                <input type="text" name="Nombre">
+                            </label>
+                        </div>
+                        <div>
+                            <label>Apellido
+                                <input type="text" name="Apellido">
+                                <!--esto es lo que va a tomar el formulario-->
+                            </label>
+                        </div>
+                        <div>
+                            <label>Correo Electronico
+                                <input type="email" name="Correo Electronico">
+                            </label>
+                        </div>
+                        <div>
+                            <label>Genero
+                                <select name="Genero">
+                                    <!--aca estoy haciendo un menu desplegable-->
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Femenino">Femenino</option>
+                                    <option value="No Binario">No Binario</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div>
+                            <button type="button" class="enviar btn btn-primary">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+
+        </section>
+    
+     <!--Footer-->   
+
+    <footer>
+        <div data-aos="fade-up"> 
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Derechos Reservados www.Reciclandog.com</h5>
+                    <p class="card-text">El Salvador 5218 - CABA</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--scripts aos-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!--Scripts-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>

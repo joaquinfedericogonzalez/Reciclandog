@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Aca va todo lo de la barra de navegacion*/
+
+.navegacion{
+    background-color: #024C79;
+    box-shadow: 0 0px 50px 0 rgba(0,0,0,0.10), 0 0px 20px 0 rgba(0,0,0,0.30);
+}
+
+.navbar-nav > li{
+    padding-left:40px;
+    padding-right:40px;
+}  
+
+.navbar-light .navbar-nav .nav-link {
+    color: #D9D9D9;
+  }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #E76A1C;
+    text-shadow: 0 7px 7px #023c60, 0 0 0 black;
+  }
+
+.logo{
+    width: 300px;
+    height: auto;
+}
+
+.navbar-toggler{
+    background-color: #D9D9D9;
+    border-radius: 10%;
+    border-color: #E76A1C;
+    box-shadow: 0 0px 50px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.30);
+}
+
+.navbar-light .navbar-toggler  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(2, 76, 121, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+/*Botones*/
+
+.btn{
+    background-color: #024C79;
+    color: #D9D9D9;
+    border-color: transparent;
+    box-shadow: 0 4px 10px 6px rgba(0,0,0,0.14), 0 8px 20px 0 rgba(0,0,0,0.32);
+    border-radius: 17px;
+}
+
+.btn:hover{
+    background-color: #F36E11;
+    transform: scale(1.1);
+    transition: 1s;
+    border-color: transparent;
+}
+
+
+/*Carrusel*/
+
+.carousel{
+    box-sizing: border-box;
+}
+
+.d-block .w-100{
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.texto{
+    border-radius: 7px;
+    color:#F36E11;
+    font-family: Karla, sans-serif;
+    text-shadow: 0 3px 3px black, 0 0 0 #000;
+}
+
+/*Cards*/
+
+.card{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Added */
+    box-sizing: border-box;
+}
+
+.card-body{
+    background-color: #CFCFCD;
+    border-radius: 7px;
+}
+
+.card-text{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0 0px 1px black, 0 0 0 #000;
+}
+
+
+/*Aca estan los titulos*/
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    font-family: Karla, sans-serif;
+    color: #F36E11;
+    font-weight: 1.6px;
+    margin: 20px 9px 20px 5px;
+    text-shadow: 0 1px 0px black;
+}
+
+
+/*Aca va todo lo de Nosotros*/
+.sectionNosotros{
+    overflow-x: hidden;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFCFCD;
+}
+
+.instalaciones{
+    width: 500px;
+    height: 350px;
+    margin: 10px 10px 20px 20px;
+    background-color: #CFCFCD;
+}
+
+.nobel{
+    width: 600px;
+    height: 380px;
+    margin: 5px 5px 2px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #CFCFCD;
+}
+
+.sectionNosotros{
+    font-family: Karla,sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #CFCFCD;
+    border-radius: 2px;
+}
+
+.perros{
+    border-color: #F36E11;
+    border-width: 2px;
+    background-color: #CFCFCD;
+    width: 600px;
+    height: 350px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+
+/*Aca va la seccion contactos*/
+
+.sede{
+    background-color: #CFCFCD;
+}
+
+.mapa{
+    background-size: cover;
+    background-position: center;
+    width:600px; 
+    height:450px;
+}
+
+.t1{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.telefono{
+    justify-content: center;
+    font-family: Karla, sans-serif;
+    color: #F36E11;
+    font-weight: 1.6px;
+    margin: 20px 5px 20px 5px;
+    text-shadow: 0 1px 0px black;
+}
+
+.tel{
+    color: black;
+    padding-bottom: 10px;
+}
+
+.sectionContacto2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.iconos{
+    justify-content: space-evenly;
+}
+
+.iconos a{
+    text-decoration: none;
+}
+
+.png{
+
+    width: 50px;
+    height: 50px;
+}
+
+
+/*Aca va la seccion de voluntariados*/
+
+.parrafo{
+    padding: 10px 10px 10px 10px;
+    font-family: Karla,sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 18px;
+    width: 100%;
+}
+
+
+.formulario{
+    font-family: Lato, sans-serif;
+    background-color: #CFCFCD;
+    border-radius: 8px;
+}
+
+.fondo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fondo div label input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #F6E4BB;
+    
+}
+
+.fondo div{
+    margin: 15px;
+}
+
+.enviar{
+    color: #D9D9D9;
+    background-color: #024C79;
+}
+
+/*Aca va el footer*/
+
+.pie{
+    margin-top: 15px;
+}
+
+/*Aca empiezan los media queries para pantallas como tablet */
+
+@media screen and (max-width:768px) {
+    /*Nosotros*/
+     .sectionNosotros{
+        display: flex;
+        flex-direction: column;
+        margin: 60px 0px 50px 0px;
+        box-sizing: border-box;
+    }
+    .instalaciones{
+        width: 350px;
+        height: 200px;
+    }
+    .nobel{
+        width: 350px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .perros{
+        width: 350px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .parrafoMargin{
+        margin-top: 10px;
+        width: 200px;
+        width: auto;
+    }
+    /*Contacto*/
+    .sectionContacto1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 10px;
+        justify-content: center;
+    }
+
+}
+
+/*Aca empiezan las media queries para las pantallas como celulares*/
+
+@media screen and(max-width:480px) {
+
+    /*nosotros*/
+    .sectionNosotros{
+        display: flex;
+        flex-direction: column;
+    }
+        
+
+    .p1{
+        padding-right: 100px;
+    }
+
+
+    /*contacto*/
+    .sectionContacto1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+   .png{
+       display: flex;
+       flex-direction: column;
+    }
+   
+    /*voluntariados*/
+   .sectionVoluntariados1{
+    width: 95vw;
+    }
+
+    .formulario{
+    width: 100%;
+    }
+
+
+}
