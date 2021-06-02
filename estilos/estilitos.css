@@ -71,10 +71,14 @@
 .texto{
     border-radius: 7px;
     color:#F36E11;
+    font-size: 5vw;
     font-family: Karla, sans-serif;
     text-shadow: 0 3px 3px black, 0 0 0 #000;
 }
-
+.fondo_letra{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+}
 /*Cards*/
 
 .card{
@@ -83,6 +87,7 @@
     margin-top: 20px;
     margin-bottom: 20px; /* Added */
     box-sizing: border-box;
+    box-shadow: 0 4px 10px 6px rgba(0, 0, 0, 0.14), 0 8px 20px 0 rgba(0, 0, 0, 0.32); 
 }
 
 .card-body{
@@ -191,9 +196,20 @@
     text-shadow: 0 1px 0px black;
 }
 
+.list-group{
+    justify-content: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.list-group-item{
+    background-color: white;
+    color: #E76A1C;
+}
+
 .tel{
     color: black;
-    padding-bottom: 10px;
+    
 }
 
 .sectionContacto2{
@@ -317,7 +333,7 @@
 /*Aca empiezan las media queries para las pantallas como celulares*/
 
 @media screen and(max-width:480px) {
-
+    
     /*nosotros*/
     .sectionNosotros{
         display: flex;

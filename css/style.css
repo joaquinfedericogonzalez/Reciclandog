@@ -7,7 +7,6 @@
   background-color: #E76A1C;
   color: #D9D9D9; }
 
-
 .navegacion {
   background-color: #024C79;
   box-shadow: 0 0px 50px 0 rgba(0, 0, 0, 0.1), 0 0px 20px 0 rgba(0, 0, 0, 0.3); }
@@ -53,19 +52,17 @@
 /*Cards*/
 .card {
   margin: 0 auto;
-  /* Added */
   float: none;
-  /* Added */
   margin-top: 20px;
   margin-bottom: 20px;
-  /* Added */
   box-sizing: border-box;
-  border-color: #E76A1C;
-  border-radius: 5px; }
+  border-radius: 5px;
+  box-shadow: 0 4px 10px 6px rgba(0, 0, 0, 0.14), 0 8px 20px 0 rgba(0, 0, 0, 0.32); }
 
 .card__card-body {
   background-color: #CFCFCD;
-  border-radius: 7px; }
+  border-radius: 7px;
+  text-shadow: 0 0px 1px black, 0 0 0 #000; }
 
 .card__card-text {
   text-align: center;

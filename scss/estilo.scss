@@ -93,18 +93,20 @@ $gricecito:#CFCFCD;
 /*Cards*/
 
 .card{
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
+    margin: 0 auto;
+    float: none; 
     margin-top: 20px;
-    margin-bottom: 20px; /* Added */
+    margin-bottom: 20px;
     box-sizing: border-box;
-    border-color: $naranjita;
     border-radius: 5px;
+    box-shadow: 0 4px 10px 6px rgba(0, 0, 0, 0.14), 0 8px 20px 0 rgba(0, 0, 0, 0.32);
 }
 
 .card__card-body{
     background-color: $gricecito;
     border-radius: 7px;
+    text-shadow: 0 0px 1px black, 0 0 0 #000;
+    
 }
 
 .card__card-text{
