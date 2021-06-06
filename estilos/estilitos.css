@@ -488,6 +488,9 @@
     }
 
         .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             width: 150px;
         }
         .wrapper ul li{
