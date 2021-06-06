@@ -297,12 +297,16 @@
     border: 5px solid #3b5998;
     box-shadow: 0 0 15px #3b5998;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   .wrapper ul li:hover .fa-facebook {
     color: #3b5998;
     text-shadow: 0 0 15px #3b5998;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   /*twitter*/
@@ -310,12 +314,16 @@
     border: 5px solid #00aced;
     box-shadow: 0 0 15px #00aced;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   .wrapper ul li:hover .fa-twitter {
     color: #00aced;
     text-shadow: 0 0 15px #00aced;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   /* instagram */
@@ -323,12 +331,16 @@
     border: 5px solid #bc2a8d;
     box-shadow: 0 0 15px #bc2a8d;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   .wrapper ul li:hover .fa-instagram {
     color: #bc2a8d;
     text-shadow: 0 0 15px #bc2a8d;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   /* youtube */
@@ -336,12 +348,16 @@
     border: 5px solid #dd4b39;
     box-shadow: 0 0 15px #dd4b39;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   .wrapper ul li:hover .fa-youtube-play {
     color: #dd4b39;
     text-shadow: 0 0 15px #dd4b39;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   /* whatsapp */
@@ -349,12 +365,16 @@
     border: 5px solid #4dc247;
     box-shadow: 0 0 15px #4dc247;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   .wrapper ul li:hover .fa-whatsapp {
     color: #4dc247;
     text-shadow: 0 0 15px #4dc247;
     transition: all 0.5s ease;
+    transform: scale(1.1);
+    transition: 1s;
   }
 
 
@@ -487,18 +507,12 @@
         justify-content: center;
     }
 
-        .wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            width: 150px;
-        }
-        .wrapper ul li{
-            margin:15px;
-        }
-        .wrapper ul li.google{
-            margin-left: 15px;
-        }
+    .wrapper {
+    width: 150px;
+    }
+    .wrapper ul li{
+    margin:15px;
+    }
 
     /*voluntariados*/
    .sectionVoluntariados1{
