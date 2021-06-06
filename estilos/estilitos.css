@@ -239,6 +239,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    overflow-x: hidden;
 }
 .titulo{
     display: flex;
@@ -251,132 +252,145 @@
 }
 
 
-.wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 550px;
-    padding-bottom: 90px;
-    padding-left: 30px;
-  }
-  
-  /* Style the Un-order list by setting its list-style to none */
-  .wrapper ul {
-    list-style: none;
-  }
-  
-  /* Style the list items inside the UL list, by setting its width, height and line-height 
-    and float them to left and set its border and border-radius.
-   */
-  .wrapper ul li {
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
-    margin: 70px 10px 40px 10px;
-    text-align: center;
-    cursor: pointer;
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.social-icon{
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 0.5rem;
     border-radius: 50%;
-    border: 5px solid black;
-    float: left;
-    transition: all 0.5s ease;
+    cursor: pointer;
+    font-family: "Halvetica Neue",sans-serif,"Arial";
+    font-size: 2.5rem;
+    text-decoration: none;
+    transition: all 0.15s ease;
+    box-shadow: inset 1px 1px 2px #90a4ae,
+                inset -1px -1px 2px white,
+                5px 5px 10px #90a4ae,
+                -5px -5px 10px white;
+    border: 6px solid rgba(230,228,228);            
+}
+/* Tooltips */
+.tooltip {
+    overflow-x: hidden;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    transform: translate(-50%, -100%);
+    transition: all 0.3s ease;
+    z-index: 1;
   }
-  
-  /* Style the icons by setting its color and margin-top value to 20px 
-  to align it properly */
-  .wrapper ul li .fa {
-    color: black;
-    margin-top: 20px;
-    transition: all 0.5s ease;
-  }
-  
-  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
-    to icons for glowing effect and use transition property for smooth transition effect. */
-  /*facebook*/
-  .wrapper ul li:hover.facebook {
-    border: 5px solid #3b5998;
-    box-shadow: 0 0 15px #3b5998;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  
-  .wrapper ul li:hover .fa-facebook {
-    color: #3b5998;
-    text-shadow: 0 0 15px #3b5998;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  
-  /*twitter*/
-  .wrapper ul li:hover.twitter {
-    border: 5px solid #00aced;
-    box-shadow: 0 0 15px #00aced;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  
-  .wrapper ul li:hover .fa-twitter {
-    color: #00aced;
-    text-shadow: 0 0 15px #00aced;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  
-  /* instagram */
-  .wrapper ul li:hover.instagram {
-    border: 5px solid #bc2a8d;
-    box-shadow: 0 0 15px #bc2a8d;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  
-  .wrapper ul li:hover .fa-instagram {
-    color: #bc2a8d;
-    text-shadow: 0 0 15px #bc2a8d;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  
-  /* youtube */
-  .wrapper ul li:hover.youtube-play {
-    border: 5px solid #dd4b39;
-    box-shadow: 0 0 15px #dd4b39;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  
-  .wrapper ul li:hover .fa-youtube-play {
-    color: #dd4b39;
-    text-shadow: 0 0 15px #dd4b39;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  
-  /* whatsapp */
-  .wrapper ul li:hover.whatsapp {
-    border: 5px solid #4dc247;
-    box-shadow: 0 0 15px #4dc247;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  
-  .wrapper ul li:hover .fa-whatsapp {
-    color: #4dc247;
-    text-shadow: 0 0 15px #4dc247;
-    transition: all 0.5s ease;
-    transform: scale(1.1);
-    transition: 1s;
+  .tooltip:after {
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
   }
 
+/* color */
+.social-icon--codepen{
+    background: #000;
+    color: #fff;
+}
+.social-icon--github{
+    background: #4284c0;
+    color: #fff;
+}
+.social-icon--twitter{
+    background: #2b97f1;
+    color: #fff;
+}
+.social-icon--youtube{
+    background: #fa3217;
+    color: white;
+}
+.social-icon--instagram{
+    background: #527fa6;
+    color: white;
+}
+.social-icon--facebook{
+    background: #3b5a9b;
+    color: white;
+}
+/* Hover Effect*/
+.social-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -150%);
+}
+.social-icon--codepen .tooltip{
+    background: #000;
+    columns: currentColor;
+}
+.social-icon--codepen .tooltip::after{
+    border-top-color: black;
+}
+
+.social-icon--facebook .tooltip{
+    background: #3b5a9b;
+    columns: currentColor;
+}
+.social-icon--facebook .tooltip::after{
+    border-top-color: #3b5a9a;
+}
+.social-icon--twitter .tooltip{
+    background: #2b97f1;
+    columns: currentColor;
+}
+.social-icon--twitter .tooltip::after{
+    border-top-color: #2b97f1;
+}
+
+.social-icon--youtube .tooltip{
+    background: #f31344;
+    columns: currentColor;
+}
+.social-icon--youtube .tooltip::after{
+    border-top-color: #f31344;
+}
+
+.social-icon--instagram .tooltip{
+    background: #527fa6;
+    columns: currentColor;
+}
+.social-icon--instagram .tooltip:after{
+    border-top-color: #527fa6;
+}
+
+
+.social-icon--github .tooltip{
+    background: #4284c0;
+    columns: currentColor;
+}
+/* icon after effect */
+.social-icon--github .tooltip::after{
+    border-top-color: #4284c0;
+}
 
 /*Aca va la seccion de voluntariados*/
 
@@ -432,6 +446,18 @@
     margin-top: 30px;
     font-family:'Comfortaa', cursive;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Aca empiezan los media queries para pantallas como tablet */
 
@@ -507,13 +533,10 @@
         justify-content: center;
     }
 
-    .wrapper {
-    width: 150px;
+    .social-icon{
+        width: 100%;
+        height: auto;
     }
-    .wrapper ul li{
-    margin:15px;
-    }
-
     /*voluntariados*/
    .sectionVoluntariados1{
     width: 95vw;
