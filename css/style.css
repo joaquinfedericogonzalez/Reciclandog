@@ -38,7 +38,9 @@
   color: #D9D9D9;
   border-color: transparent;
   box-shadow: 0 4px 10px 6px rgba(0, 0, 0, 0.14), 0 8px 20px 0 rgba(0, 0, 0, 0.32);
-  border-radius: 17px; }
+  border-radius: 17px;
+  display: flex;
+  justify-content: center; }
 
 .btn:hover {
   background-color: #E76A1C;
@@ -86,7 +88,7 @@
 /*Aca va la seccion de voluntariados*/
 .parrafo {
   padding: 10px 10px 10px 10px;
-  font-family: Karla,sans-serif;
+  font-family: 'Comfortaa', cursive;
   letter-spacing: 1px;
   line-height: 1.6;
   font-size: 18px;

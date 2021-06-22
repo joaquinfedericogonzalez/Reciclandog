@@ -58,6 +58,11 @@
     font-family:'Cabin', sans-serif;
 }
 
+.btn-primary{
+    display: flex;
+    justify-content: center;
+}
+
 .btn:hover{
     background-color: #F36E11;
     transform: scale(1.1);
