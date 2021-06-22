@@ -22,7 +22,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: #E76A1C;
-    text-shadow: 0 7px 7px #023c60, 0 0 0 black;
+    text-shadow: 0 7px 7px #024C79, 0 0 0 black;
   }
 
 .logo{
@@ -46,6 +46,7 @@
     color: #D9D9D9;
     font-family:'Cabin', sans-serif ;
 }
+
 /*Botones*/
 
 .btn{
@@ -64,17 +65,14 @@
     border-color: transparent;
 }
 
-
 /*Carrusel*/
 
-.carousel{
+.carousel-inner{
     box-sizing: border-box;
-}
-
-
-.d-block .w-100{
     box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.19);
+    overflow-x: hidden;
 }
+
 
 .texto{
     border-radius: 7px;
@@ -247,150 +245,43 @@
     font-family:'Cabin', sans-serif;
     color: #F36E11;
     font-weight: 1.8px;
-    margin: 20px 9px 85px 5px;
+    margin: 20px 9px 35px 5px;
     text-shadow: 0 1px 0px black;
 }
 
 
-.social-icons{
-    display: flex;
+/*Estos son los iconos de redes sociales*/
+
+.buttons {
+    padding: 10px;
+    min-width: 100px;
     align-items: center;
-    justify-content: center;
-    
-}
-.social-icon{
-    overflow-x: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 80px;
-    height: 80px;
-    margin: 0 0.5rem;
+    justify-content: space-evenly;
+  }
+  
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #CFCFCD;
+    color: #024C79;
     border-radius: 50%;
-    cursor: pointer;
-    font-family: "Halvetica Neue",sans-serif,"Arial";
-    font-size: 2.5rem;
-    text-decoration: none;
-    transition: all 0.15s ease;
-    box-shadow: inset 1px 1px 2px #90a4ae,
-                inset -1px -1px 2px white,
-                5px 5px 10px #90a4ae,
-                -5px -5px 10px white;
-    border: 6px solid rgba(230,228,228);            
-}
-/* Tooltips */
-.tooltip {
-    overflow-x: hidden;
-    text-decoration: none;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    padding: 0.8rem 1rem;
-    border-radius: 12px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    opacity: 0;
-    pointer-events: none;
-    text-transform: uppercase;
-    transform: translate(-50%, -100%);
-    transition: all 0.3s ease;
-    z-index: 1;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s;
   }
-  .tooltip:after {
-    display: block;
-    position: absolute;
-    bottom: 1px;
-    left: 50%;
-    width: 0;
-    height: 0;
-    content: "";
-    border: solid;
-    border-width: 10px 10px 0 10px;
-    border-color: transparent;
-    transform: translate(-50%, 100%);
+  
+.buttons a:hover {
+    transform: scale(1.2);
   }
 
-/* color */
-.social-icon--codepen{
-    background: #000;
-    color: #fff;
-}
-.social-icon--github{
-    background: #4284c0;
-    color: #fff;
-}
-.social-icon--twitter{
-    background: #2b97f1;
-    color: #fff;
-}
-.social-icon--youtube{
-    background: #fa3217;
-    color: white;
-}
-.social-icon--instagram{
-    background: #527fa6;
-    color: white;
-}
-.social-icon--facebook{
-    background: #3b5a9b;
-    color: white;
-}
-/* Hover Effect*/
-.social-icon:hover .tooltip {
-    visibility: visible;
-    opacity: 1;
-    transform: translate(-50%, -150%);
-}
-.social-icon--codepen .tooltip{
-    background: #000;
-    columns: currentColor;
-}
-.social-icon--codepen .tooltip::after{
-    border-top-color: black;
-}
-
-.social-icon--facebook .tooltip{
-    background: #3b5a9b;
-    columns: currentColor;
-}
-.social-icon--facebook .tooltip::after{
-    border-top-color: #3b5a9a;
-}
-.social-icon--twitter .tooltip{
-    background: #2b97f1;
-    columns: currentColor;
-}
-.social-icon--twitter .tooltip::after{
-    border-top-color: #2b97f1;
-}
-
-.social-icon--youtube .tooltip{
-    background: #f31344;
-    columns: currentColor;
-}
-.social-icon--youtube .tooltip::after{
-    border-top-color: #f31344;
-}
-
-.social-icon--instagram .tooltip{
-    background: #527fa6;
-    columns: currentColor;
-}
-.social-icon--instagram .tooltip:after{
-    border-top-color: #527fa6;
-}
-
-
-.social-icon--github .tooltip{
-    background: #4284c0;
-    columns: currentColor;
-}
-/* icon after effect */
-.social-icon--github .tooltip::after{
-    border-top-color: #4284c0;
-}
+.buttons a:hover{
+      color: #E76A1C;
+      transition: 1s;
+  }
 
 /*Aca va la seccion de voluntariados*/
 
@@ -410,6 +301,7 @@
     font-family: 'Comfortaa', cursive ;
     background-color: #CFCFCD;
     border-radius: 8px;
+    
 }
 
 .fondo{
@@ -423,14 +315,20 @@
 }
 
 .fondo div label input{
+    display: flex;
     width: 20vw;
     height: 5vh;
     border-radius: 5px;
     border-width: 1px;
-    background-color: #F6E4BB;
-    
+    background-color: white;
+    border-color: #E76A1C;
+    border-width: 2px;
 }
-
+.gen{
+    display: flex;
+    border-color: #E76A1C;
+    border-width: 2px;
+}
 .fondo div{
     margin: 15px;
 }
@@ -513,7 +411,10 @@
 /*Aca empiezan las media queries para las pantallas como celulares*/
 
 @media screen and(max-width:480px) {
-    
+    .titulos{
+        display: flex;
+        justify-content: center;
+    }
     /*nosotros*/
     .sectionNosotros{
         display: flex;
