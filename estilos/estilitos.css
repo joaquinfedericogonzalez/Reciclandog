@@ -137,6 +137,7 @@
     color: #F36E11;
     font-weight: 1.8px;
     margin: 20px 9px 35px 5px;
+    padding-top: 5px;
     text-shadow: 0 1px 0px black;
 }
 
@@ -290,7 +291,9 @@
     background-color: #CFCFCD;
 }
 
-
+.embed-responsive{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+}
 .formulario{
     font-family: 'Comfortaa', cursive ;
     background-color: #CFCFCD;
@@ -354,7 +357,7 @@
 /*Aca empiezan los media queries para pantallas como tablet */
 
 @media screen and (max-width:768px) {
-    .titulos{
+    .titulo{
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -402,7 +405,7 @@
 /*Aca empiezan las media queries para las pantallas como celulares*/
 
 @media screen and(max-width:480px) {
-    .titulos{
+    .titulo{
        align-items: center;
     }
     /*nosotros*/
@@ -431,6 +434,11 @@
 
     .formulario{
     width: 100%;
+    }
+
+    .fondo div label input{
+        width: 5vw;
+        height: 5vh;
     }
     
 
