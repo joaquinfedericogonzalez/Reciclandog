@@ -44,7 +44,7 @@
 
 .btn:hover {
   background-color: #E76A1C;
-  transform: scale(1.1);
+  transform: scale(0.95);
   transition: 1s;
   border-color: transparent; }
 
