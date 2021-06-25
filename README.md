@@ -12,7 +12,8 @@
 ## Su conformacion 
 
 - Este esta conformado en una base** HTML ** el cual tiene un total de 21 archivos ***.HTML*** con enlaces entre si en diferentes puntos del proyecto, los cuales van del inicio a la seccion de Productos, o del inicio a la seccion Voluntariados, entre otros.
-![Imagen demostrativa utilizada en el proyecto](https://bn1301files.storage.live.com/y4pPZyzlMGwdCa6KIyTwxWNPK2YFL6byCvghvK-T0pw8Hhjjpron-SNclszWaN9xzV3-Y-c_avChCFzfT0pk-y5d2cTSrJu8j12qtbSn5rwfP-xvXnAFDev0MHJIuPURmPSjkFTDGCzn-sIHTgm4kdwqqvzJG9aeNPkG6JHI0mG7drD9bDdB2Md9Qc4UF0x0VvWjLojYDdCnMb-XU2oXSIdjSEJvYP25rM4UQTFYgOkQuo/2021-06-25.png?psid=1&width=1256&height=591)
+
+![](https://bn1301files.storage.live.com/y4pPZyzlMGwdCa6KIyTwxWNPK2YFL6byCvghvK-T0pw8Hhjjpron-SNclszWaN9xzV3-Y-c_avChCFzfT0pk-y5d2cTSrJu8j12qtbSn5rwfP-xvXnAFDev0MHJIuPURmPSjkFTDGCzn-sIHTgm4kdwqqvzJG9aeNPkG6JHI0mG7drD9bDdB2Md9Qc4UF0x0VvWjLojYDdCnMb-XU2oXSIdjSEJvYP25rM4UQTFYgOkQuo/2021-06-25.png?psid=1&width=1256&height=591)
 
 - Los 5 HTML a simple vista estan conformados totalmente en **CSS** siguiendo una misma gama de colores y estilos durante toda la pagina, o diferentes tipos de estilos como *** Margins, Paddings, Display, Box Shadows, Hovers*** entre otros. Tambien a traves de este esta conformado los media queries en dispositivos como Tablets (720px) y Smartphones (480px).
 Tambien se realizo los cambios de estilos necesarios de la biblioteca de codigo abierto de **BOOTSTRAP 4.6**.
@@ -27,7 +28,7 @@ Tambien se realizo los cambios de estilos necesarios de la biblioteca de codigo 
 4. Navbar.
 5. Buttons.
 
-![Imagen demostrativa de la utilizacion de listas](https://scontent.xx.fbcdn.net/v/t1.15752-0/s640x640/205899972_1167200827129131_2479290053380206154_n.png?_nc_cat=107&ccb=1-3&_nc_sid=aee45a&_nc_eui2=AeFM46VTsTq7ByQQEKC7uQU4XsRftz8cZgBexF-3PxxmAPqv5_QP9SnBi9J89GZSeNirfpNjDDGefQG1YlGaUzPV&_nc_ohc=VuQc70t3J30AX9E2L8V&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=4a95a152f31ce69a0d4e2c2083016ec1&oe=60DAAC30)
+![](https://scontent.xx.fbcdn.net/v/t1.15752-0/s640x640/205899972_1167200827129131_2479290053380206154_n.png?_nc_cat=107&ccb=1-3&_nc_sid=aee45a&_nc_eui2=AeFM46VTsTq7ByQQEKC7uQU4XsRftz8cZgBexF-3PxxmAPqv5_QP9SnBi9J89GZSeNirfpNjDDGefQG1YlGaUzPV&_nc_ohc=VuQc70t3J30AX9E2L8V&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=4a95a152f31ce69a0d4e2c2083016ec1&oe=60DAAC30)
 ------------
 
 
@@ -45,7 +46,7 @@ Tambien se realizo los cambios de estilos necesarios de la biblioteca de codigo 
 1. Comfortaa.
 2. Cabin.
 
-![Imagen con texto demostrativo de las fuentes](https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/206218739_535116540850182_5621235264932096672_n.png?_nc_cat=101&ccb=1-3&_nc_sid=aee45a&_nc_eui2=AeGC9DO3MZOOfheq40-0ijDj5NjBBc14Y0Hk2MEFzXhjQRpp5s0JO32fE1gH04-BBkxEEsXUmUXNzlCRB_z88_ko&_nc_ohc=QecgNZHdjtgAX-HGd1_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=9576bde86181c5ec0470acaf31872d36&oe=60D9A49E)
+![](https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/206218739_535116540850182_5621235264932096672_n.png?_nc_cat=101&ccb=1-3&_nc_sid=aee45a&_nc_eui2=AeGC9DO3MZOOfheq40-0ijDj5NjBBc14Y0Hk2MEFzXhjQRpp5s0JO32fE1gH04-BBkxEEsXUmUXNzlCRB_z88_ko&_nc_ohc=QecgNZHdjtgAX-HGd1_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=9576bde86181c5ec0470acaf31872d36&oe=60D9A49E)
 
 ## Git y GitHub
 - Desde estos dos fue creado el repositorio del cual se puede observar y hace uso del codigo de este proyecto y mirarlo a traves de **GitHub Pages**. Tambien ***GIT***  fue utilizado para la subida de archivos al repositorio virtual de ***GitHub*** haciendo uso de **COMMITS** y **PUSH**.
