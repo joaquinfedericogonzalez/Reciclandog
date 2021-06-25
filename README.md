@@ -26,6 +26,7 @@ Tambien se realizo los cambios de estilos necesarios de la biblioteca de codigo 
 3.  List.
 4. Navbar.
 5. Buttons.
+
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-0/s640x640/205899972_1167200827129131_2479290053380206154_n.png?_nc_cat=107&ccb=1-3&_nc_sid=aee45a&_nc_eui2=AeFM46VTsTq7ByQQEKC7uQU4XsRftz8cZgBexF-3PxxmAPqv5_QP9SnBi9J89GZSeNirfpNjDDGefQG1YlGaUzPV&_nc_ohc=VuQc70t3J30AX9E2L8V&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=4a95a152f31ce69a0d4e2c2083016ec1&oe=60DAAC30)
 ------------
 
