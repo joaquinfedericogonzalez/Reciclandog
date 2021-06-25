@@ -12,7 +12,6 @@
 ## Su conformacion 
 
 - Este esta conformado en una base** HTML ** el cual tiene un total de 21 archivos ***.HTML*** con enlaces entre si en diferentes puntos del proyecto, los cuales van del inicio a la seccion de Productos, o del inicio a la seccion Voluntariados, entre otros.
-
 ![](https://bn1301files.storage.live.com/y4pPZyzlMGwdCa6KIyTwxWNPK2YFL6byCvghvK-T0pw8Hhjjpron-SNclszWaN9xzV3-Y-c_avChCFzfT0pk-y5d2cTSrJu8j12qtbSn5rwfP-xvXnAFDev0MHJIuPURmPSjkFTDGCzn-sIHTgm4kdwqqvzJG9aeNPkG6JHI0mG7drD9bDdB2Md9Qc4UF0x0VvWjLojYDdCnMb-XU2oXSIdjSEJvYP25rM4UQTFYgOkQuo/2021-06-25.png?psid=1&width=1256&height=591)
 
 - Los 5 HTML a simple vista estan conformados totalmente en **CSS** siguiendo una misma gama de colores y estilos durante toda la pagina, o diferentes tipos de estilos como *** Margins, Paddings, Display, Box Shadows, Hovers*** entre otros. Tambien a traves de este esta conformado los media queries en dispositivos como Tablets (720px) y Smartphones (480px).
