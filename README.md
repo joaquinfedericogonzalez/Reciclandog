@@ -11,7 +11,7 @@
 
 ## Su conformacion 
 
-- Este esta conformado en una base** HTML ** el cual tiene un total de 21 archivos ***.HTML*** con enlaces entre si en diferentes puntos del proyecto, los cuales van del inicio a la seccion de Productos, o del inicio a la seccion Voluntariados, entre otros.
+- Este esta conformado en una base **HTML** el cual tiene un total de 21 archivos ***.HTML*** con enlaces entre si en diferentes puntos del proyecto, los cuales van del inicio a la seccion de Productos, o del inicio a la seccion Voluntariados, entre otros.
 
 
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/201997928_2923312227917640_70613315193606405_n.png?_nc_cat=105&ccb=1-3&_nc_sid=aee45a&_nc_eui2=AeEPICXtBp5Yy5hTwQ9QNzENed2ci52gcYJ53ZyLnaBxgmBQfmi1FTxaJ-hiujhSPQGw6Nbp5dh6issOiBOROkK0&_nc_ohc=wsSCB5xWEbMAX9G82As&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=7f0048b59e4188908313675a470ddde8&oe=60DA984D)
