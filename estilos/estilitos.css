@@ -18,12 +18,12 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: #D9D9D9;
-  }
+}
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: #E76A1C;
     text-shadow: 0 7px 7px #024C79, 0 0 0 black;
-  }
+}
 
 .logo{
     width: 300px;
@@ -39,7 +39,7 @@
 
 .navbar-light .navbar-toggler  .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(2, 76, 121, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  }
+}
 
 .textito{
     margin: 12px;
@@ -59,7 +59,7 @@
 }
 
 .btn-primary{
-     display: flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -253,8 +253,8 @@
     align-items: center;
     display: flex;
     justify-content: space-evenly;
-  }
-  
+}
+
 .buttons a {
     text-decoration: none;
     font-size: 28px;
@@ -267,16 +267,16 @@
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     transition: all .4s;
-  }
-  
+}
+
 .buttons a:hover {
     transform: scale(1.1);
-  }
+}
 
 .buttons a:hover{
-      color: #E76A1C;
-      transition: 1s;
-  }
+    color: #E76A1C;
+    transition: 1s;
+}
 
 /*Aca va la seccion de voluntariados*/
 
